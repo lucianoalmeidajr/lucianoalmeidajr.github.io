@@ -12,68 +12,31 @@
       rel="stylesheet"
     />
     <!-- Fonte: https://fonts.google.com/share?selection.family=IBM%20Plex%20Sans%20Condensed -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfólio - Luciano Almeida</title>
-
-    <style>
-      /* Tags */
-      body {
-        font-family: "IBM Plex Sans Condensed", sans-serif;
-        font-weight: normal;
-        /* Paleta de cores: https://coolors.co/palette/d6d6d6-ffee32-ffd100-202020-333533 */
-        background-color: #202020;
-        color: #d6d6d6;
-      }
-      h1,
-      h2,
-      h3 {
-        font-weight: bold;
-      }
-      a {
-        text-decoration: none;
-        color: #ffd100;
-      }
-      a:hover {
-        text-decoration: none;
-        font-weight: bold;
-      }
-      strong {
-        color: #ffd100;
-        font-size: 1.1em;
-      }
-      /* Class */
-      .profile-picture {
-        border-radius: 50%;
-      }
-      /* IDs */
-      #profile-picture {
-        padding: 15px 30px;
-        /* Testando apenas */
-      }
-    </style>
   </head>
   <body>
+    <header>
+      <nav id="menu">
+        <ul class="menu">
+          <li class="linha"><a href="#quemSouEu">Quem sou eu</a></li>
+          <li class="linha"><a href="#expProfissional">Experiência Profissional</a></li>
+          <li class="linha"><a href="#educacao">Educação</a></li>
+          <li class="linha"><a href="#habilidades">Habilidades</a></li>
+          <li class="linha"><a href="#idiomas">Idiomas</a></li>
+          <li class="linha"><a href="#social-media">Redes Sociais</a></li>
+        </ul>
+      </nav>
+    </header>
     <h1>Luciano Alves de Almeida Júnior</h1>
     <div id="profile-picture">
       <img
         class="profile-picture"
-        src="images/profile-picture.jpg"
+        src="./images/profile-picture.jpg"
         alt="Luciano Almeida - Foto Portfólio"
         width="200px"
       />
     </div>
-    <section id="index">
-      <h2>Índice</h2>
-      <div>
-        <ul>
-          <li><a href="#quemSouEu">Quem sou eu</a></li>
-          <li><a href="#expProfissional">Experiência Profissional</a></li>
-          <li><a href="#educacao">Educação</a></li>
-          <li><a href="#habilidades">Habilidades</a></li>
-          <li><a href="#idiomas">Idiomas</a></li>
-          <li><a href="#depoisDas18">Depois das 18h</a></li>
-        </ul>
-      </div>
-    </section>
     <section id="quemSouEu">
       <h2>Quem sou eu</h2>
       <div id="sobreMim">
@@ -132,27 +95,16 @@
         </ul>
       </div>
     </section>
-    <section id="depoisDas18">
-      <h2>Depois das 18h [Hobbies]</h2>
-      <div id="blogs">
-        <h3>Blogs</h3>
+    <section id="social-media">
+      <h2>Redes Sociais</h2>
+      <div>
+        <!-- <h3>Blogs</h3> -->
         <ul>
           <li>
-            <a href="https://jovemnerd.com.br/" target="_blank">Jovem Nerd</a>
-          </li>
-        </ul>
-      </div>
-      <div id="">
-        <h3>Streams</h3>
-        <ul>
-          <li>
-            <a href="https://www.twitch.tv/directory/game/FIFA%2022"
-              >TwitchTV - FIFA 22</a
-            >
+            <a href="https://www.linkedin.com/in/lucianoalmeidajr/" target="_blank">LinkedIn</a>
           </li>
         </ul>
       </div>
     </section>
-    <a href="#index">Voltar ao Índice</a>
   </body>
 </html>

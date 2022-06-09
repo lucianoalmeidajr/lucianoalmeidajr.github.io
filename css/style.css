@@ -1,0 +1,49 @@
+/* Tags */
+body {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: normal;
+    /* Paleta de cores: https://coolors.co/palette/d6d6d6-ffee32-ffd100-202020-333533 */
+    background-color: #202020;
+    color: #d6d6d6;
+    margin: 0;
+    padding: 50px 30px;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+    color: #ffd100;
+  }
+  a:hover {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  strong {
+    color: #ffd100;
+    font-size: 1.1em;
+  }
+  /* Class */
+  .profile-picture {
+    border-radius: 50%;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+  } /*Rever classe e aplicação da mesma no HTML*/
+  .linha {
+    margin-right: 20px;
+    align-items: center;
+    height: 100%;
+  } /*Rever classe e aplicação da mesma no HTML*/
+  /* IDs */
+  #menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333533;
+  }
