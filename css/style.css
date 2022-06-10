@@ -1,6 +1,8 @@
 /* Tags */
+
 body {
     font-family: "IBM Plex Sans Condensed", sans-serif;
+    /* Fonte: https://fonts.google.com/share?selection.family=IBM%20Plex%20Sans%20Condensed */
     font-weight: normal;
     /* Paleta de cores: https://coolors.co/palette/d6d6d6-ffee32-ffd100-202020-333533 */
     background-color: #202020;
@@ -8,37 +10,51 @@ body {
     margin: 0;
     padding: 50px 30px;
   }
+
   h1,
   h2,
   h3 {
     font-weight: bold;
   }
+
   a {
     text-decoration: none;
     color: #ffd100;
   }
+
   a:hover {
     text-decoration: none;
     font-weight: bold;
+    background-color: #202020;
   }
-  strong {
+
+  div p span {
     color: #ffd100;
-    font-size: 1.1em;
+    font-weight: bold;
   }
-  /* Class */
-  .profile-picture {
-    border-radius: 50%;
-  }
-  .menu {
-    list-style: none;
-    display: flex;
-  } /*Rever classe e aplicação da mesma no HTML*/
-  .linha {
+
+  div ul li {
     margin-right: 20px;
     align-items: center;
     height: 100%;
-  } /*Rever classe e aplicação da mesma no HTML*/
+  }
+
+  /* Class */
+  
+  .profile-picture {
+    width: 15%;
+    min-width: 200px;
+    border-radius: 50%;
+    float: none;
+  }
+
+  .menu-lista {
+    list-style: none;
+    display: inline-flex;
+  }
+  
   /* IDs */
+  
   #menu {
     position: fixed;
     top: 0;
