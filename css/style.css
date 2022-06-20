@@ -13,13 +13,14 @@ body {
     background-color: #202020;
     color: #d6d6d6;
     margin: 0;
-    padding: 50px 30px;
+    padding: 3%;
   }
 
   h1,
   h2,
   h3 {
     font-weight: bold;
+    color: #ffd100;
   }
 
   a {
@@ -69,16 +70,49 @@ body {
     text-align: center;
   }
 
-  .profile-picture {
-    width: 15%;
-    min-width: 200px;
-    border-radius: 50%;
-    float: none;
+  .name-title {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
   }
 
+  .profile-picture {
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    position: static;
+    margin-right: 10%;
+    /* border: 2px solid red; */
+  }
+
+  .shortAboutMe {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: block;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+
+  .image-container {
+    height: 200px;
+    position: static;
+  }
+
+  #intro {
+    margin-top: 20px;
+    height: 200px;
+    /* border: 2px solid red; */
+  }
+  
+  main div h1 {
+    /* border: 2px solid red; */
+  }
 /* Main */
 
-
+#aboutMe {
+    display: inline-block;
+}
 
 /* footer */
 
